@@ -3,6 +3,44 @@
     display: none;
   }
 }
+@media (max-width: 960px) {
+  body {
+    background-color: #48555b;
+  }
+  .mobil_info {
+    margin: 100px auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 29px;
+    font-family: "bold";
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+
+    background: linear-gradient(
+      90deg,
+      #e933ff,
+      #ffb400,
+      #ff3333,
+      #334dff,
+      #e933ff
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textflow 5s linear infinite;
+  }
+  @keyframes textflow {
+    from {
+      background-position: 0% center;
+    }
+    to {
+      background-position: 200% center;
+    }
+  }
+}
 
 @font-face {
   font-family: "semibold";
