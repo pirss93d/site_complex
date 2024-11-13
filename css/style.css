@@ -2,8 +2,6 @@
   .content_media-pc {
     display: none;
   }
-}
-@media (max-width: 960px) {
   body {
     background-color: #48555b;
   }
