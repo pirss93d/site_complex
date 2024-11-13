@@ -1,19 +1,19 @@
 @font-face {
   font-family: "semibold";
-  src: url("/font/static/OpenSans-SemiBold.ttf");
+  src: url("font/static/OpenSans-SemiBold.ttf");
 }
 @font-face {
   font-family: "bold";
-  src: url("/font/static/OpenSans-Bold.ttf");
+  src: url("font/static/OpenSans-Bold.ttf");
 }
 @font-face {
   font-family: "Regular";
-  src: url("/font/static/OpenSans-Regular.ttf");
+  src: url("font/static/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "Extrabold";
-  src: url("/font/static/OpenSans-ExtraBold.ttf");
+  src: url("font/static/OpenSans-ExtraBold.ttf");
 }
 
 *,
