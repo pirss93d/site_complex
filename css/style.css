@@ -1,19 +1,19 @@
 @font-face {
   font-family: "semibold";
-  src: url("./font/static/OpenSans-SemiBold.ttf");
+  src: url("../font/static/OpenSans-SemiBold.ttf");
 }
 @font-face {
   font-family: "bold";
-  src: url("./font/static/OpenSans-Bold.ttf");
+  src: url("../font/static/OpenSans-Bold.ttf");
 }
 @font-face {
   font-family: "Regular";
-  src: url("./font/static/OpenSans-Regular.ttf");
+  src: url("../font/static/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "Extrabold";
-  src: url("./font/static/OpenSans-ExtraBold.ttf");
+  src: url("../font/static/OpenSans-ExtraBold.ttf");
 }
 
 *,
@@ -218,16 +218,16 @@ ul li:nth-child(1) {
 .stroy_card-img:nth-child(1) {
   display: flex;
   flex-wrap: wrap;
-  background-image: url("img/main_story/Rectangle\ 1.svg");
+  background-image: url("../img/main_story/Rectangle\ 1.svg");
   margin-right: 20px;
 }
 
 .stroy_card-img:nth-child(2) {
-  background-image: url("img/main_story/Rectangle\ 2.svg");
+  background-image: url("../img/main_story/Rectangle\ 2.svg");
   margin-right: 19px;
 }
 .stroy_card-img:nth-child(3) {
-  background-image: url("img/main_story/Rectangle\ 3.svg");
+  background-image: url("../img/main_story/Rectangle\ 3.svg");
 }
 /*main_capabilities*********************************************************/
 
@@ -377,7 +377,7 @@ ul li:nth-child(1) {
   margin: 115px auto;
   max-width: 1440px;
   height: 499px;
-  background-image: url("img/amazing/bg.png");
+  background-image: url("../img/amazing/bg.png");
   background-size: 100% 100%;
 }
 /*Создал переменную*/
